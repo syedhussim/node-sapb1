@@ -1,0 +1,25 @@
+{
+  "name": "node-sapb1",
+  "version": "1.0.1",
+  "description": "A simple and easy to use library for SAP Business One Service Layer API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedhussim/node-sapb1.git"
+  },
+  "keywords": [
+    "sap",
+    "sapb1",
+    "service",
+    "layer"
+  ],
+  "author": "Syed Hussim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedhussim/node-sapb1/issues"
+  },
+  "homepage": "https://syedhussim.com/sap-b1/node-sapb1-library-documentation-v1.html"
+}

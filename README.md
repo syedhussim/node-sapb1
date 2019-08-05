@@ -24,7 +24,7 @@ var config = {
 Login to the Service Layer to obtain a session as shown below.
 
 ```js
-const SAPb1 = require('sapb1');
+const SAPb1 = require('node-sapb1');
 
 SAPb1.createSession(config, sap => {
     // Success 

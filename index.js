@@ -69,7 +69,7 @@ class SAPb1{
      */
     query(query, path, success = () => {}, error = () => {}){ 
         let url = this._config.host + ':' + this._config.port + '/b1s/v' + this._config.version + '/QueryService_PostQuery';
-        request.post(url, { QueryOption : '$expand=' + query , QueryPath : '$crossjoin(' + path + ')' }, response => {
+        request.execute('POST',url, { QueryOption : '$expand=' + query , QueryPath : '$crossjoin(' + path + ')' }, response => {
             if(response.statusCode() === 200){
                 success(response.toJson());
             }else{
